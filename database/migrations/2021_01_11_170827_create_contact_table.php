@@ -17,9 +17,9 @@ class CreateContactTable extends Migration
             $table->id();
             $table->string('nome');
             $table->string('email');
-            $table->string('telefone', 11);
+            $table->string('telefone', 14);
             $table->text('mensagem');
-            $table->string('anexo');
+            $table->string('arquivo')->nullable();
             $table->string('ip', 32);
             $table->timestamps();
         });

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4a16c3c541bd99241cab1c21ce8e83ac",
+    "content-hash": "5f36199b8771225fb44456d2247e06f1",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1128,6 +1128,115 @@
             "time": "2020-10-29T13:07:12+00:00"
         },
         {
+            "name": "laravel/ui",
+            "version": "v3.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel/ui.git",
+                "reference": "a1f82c6283c8373ea1958b8a27c3d5c98cade351"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravel/ui/zipball/a1f82c6283c8373ea1958b8a27c3d5c98cade351",
+                "reference": "a1f82c6283c8373ea1958b8a27c3d5c98cade351",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/console": "^8.0",
+                "illuminate/filesystem": "^8.0",
+                "illuminate/support": "^8.0",
+                "php": "^7.3|^8.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.x-dev"
+                },
+                "laravel": {
+                    "providers": [
+                        "Laravel\\Ui\\UiServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Laravel\\Ui\\": "src/",
+                    "Illuminate\\Foundation\\Auth\\": "auth-backend/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Taylor Otwell",
+                    "email": "taylor@laravel.com"
+                }
+            ],
+            "description": "Laravel UI utilities and presets.",
+            "keywords": [
+                "laravel",
+                "ui"
+            ],
+            "support": {
+                "issues": "https://github.com/laravel/ui/issues",
+                "source": "https://github.com/laravel/ui/tree/v3.2.0"
+            },
+            "time": "2021-01-06T19:20:22+00:00"
+        },
+        {
+            "name": "laravellegends/pt-br-validator",
+            "version": "8.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/LaravelLegends/pt-br-validator.git",
+                "reference": "fcb368b07d4e3e2b7cf3ad536926c7c8ffb87aba"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/LaravelLegends/pt-br-validator/zipball/fcb368b07d4e3e2b7cf3ad536926c7c8ffb87aba",
+                "reference": "fcb368b07d4e3e2b7cf3ad536926c7c8ffb87aba",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "^6.0 || ^7.0 || ^8.0"
+            },
+            "require-dev": {
+                "orchestra/testbench": "^4.0 || ^5.0 || ^6.0",
+                "phpunit/phpunit": "^8.3 || ^9.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "LaravelLegends\\PtBrValidator\\ValidatorProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "LaravelLegends\\PtBrValidator\\": "src/pt-br-validator"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Wallace de Souza Vizerra",
+                    "email": "wallacemaxters@gmail.com"
+                }
+            ],
+            "description": "Uma biblioteca contendo validações de formatos Brasileiros, para o Laravel",
+            "support": {
+                "issues": "https://github.com/LaravelLegends/pt-br-validator/issues",
+                "source": "https://github.com/LaravelLegends/pt-br-validator/tree/8.0.0"
+            },
+            "time": "2020-11-06T16:14:00+00:00"
+        },
+        {
             "name": "league/commonmark",
             "version": "1.5.7",
             "source": {
@@ -1377,6 +1486,68 @@
                 }
             ],
             "time": "2020-10-18T11:50:25+00:00"
+        },
+        {
+            "name": "moc-solucoes/moc-uteis",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/maikees/moc-uteis.git",
+                "reference": "6ec0018af9403919c9adaf32697b7ddfe31a9fa7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/maikees/moc-uteis/zipball/6ec0018af9403919c9adaf32697b7ddfe31a9fa7",
+                "reference": "6ec0018af9403919c9adaf32697b7ddfe31a9fa7",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^6.0",
+                "phpunit/phpunit-mock-objects": "^4.0"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "MOCUtils\\Helpers\\": "lib/",
+                    "MOCUtils\\Helpers\\Commands\\": "commands/"
+                },
+                "files": [
+                    "lib/Functions.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "MOC Soluções",
+                    "email": "contato@mocsolucoes.com.br",
+                    "homepage": "http://mocsolucoes.com.br",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Uteis library to developer.",
+            "homepage": "https://github.com/maikees/moc-uteis",
+            "keywords": [
+                "SlackNotification",
+                "Trasaction",
+                "e-mail",
+                "functions",
+                "money",
+                "notification",
+                "password",
+                "slack"
+            ],
+            "support": {
+                "issues": "https://github.com/maikees/moc-uteis/issues",
+                "source": "https://github.com/maikees/moc-uteis/tree/master"
+            },
+            "time": "2021-01-11T19:10:26+00:00"
         },
         {
             "name": "monolog/monolog",
@@ -7340,7 +7511,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "moc-solucoes/moc-uteis": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
