@@ -33,7 +33,7 @@ class SaveContact extends Mailable
     {
         return $this
             ->from(env('MAIL_USERNAME'))
-            ->view('mail.save-contact', ['contato' => $this->contato]);
+            ->view('mail.save-contact', ['contato' => $this->contato])
             ->attachFromStorage($this->contato->arquivo);
     }
 }
